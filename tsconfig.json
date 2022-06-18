@@ -17,21 +17,9 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "skipLibCheck": true,
-    // extra
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
-    "importsNotUsedAsValues": "error",
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true,
-    "noImplicitUseStrict": false,
-    "noStrictGenericChecks": false,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "types": ["react", "jest"]
+    "skipLibCheck": true
   },
   "exclude": [
-    "lib/**/*",
     "node_modules",
     "example/babel.config.js",
     "metro.config.js",
