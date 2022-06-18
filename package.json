@@ -1,0 +1,70 @@
+{
+  "name": "react-native-components",
+  "version": "1.0.0",
+  "description": "<!--\r Author: chankruze (chankruze@gmail.com)\r Created: Fri Jun 17 2022 10:50:51 GMT+0530 (India Standard Time)",
+  "react-native": "src/index.ts",
+  "types": "lib/typescript/index.d.ts",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chankruze/react-native-components.git"
+  },
+  "keywords": [
+    "android",
+    "ios",
+    "react-native-components",
+    "react-native",
+    "react-component",
+    "component library",
+    "ui kit"
+  ],
+  "author": "Chandan Kumar Mandal (chankruze)",
+  "license": "GPL-v3",
+  "bugs": {
+    "url": "https://github.com/chankruze/react-native-components/issues"
+  },
+  "homepage": "https://github.com/chankruze/react-native-components#readme",
+  "scripts": {
+    "typescript": "tsc --noEmit",
+    "lint": "eslint --ext '.js,.ts,.tsx' .",
+    "test": "jest",
+    "prepare": "bob build",
+    "example": "npm run android --cwd example"
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.24",
+    "@types/react": "^18.0.14",
+    "@types/react-native": "^0.67.8",
+    "@types/react-test-renderer": "^17.0.1",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^7.32.0",
+    "jest": "^28.1.1",
+    "metro-react-native-babel-preset": "^0.67.0",
+    "react": "^17.0.2",
+    "react-native": "^0.68.2",
+    "react-native-builder-bob": "^0.18.2",
+    "react-test-renderer": "17.0.2",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  }
+}

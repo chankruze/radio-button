@@ -1,0 +1,40 @@
+{
+  "include": ["src/**/*.ts"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@geekofia/react-native-components": ["./src/index"]
+    },
+    "target": "esnext",
+    "lib": ["es2017"],
+    "jsx": "react-native",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    // extra
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "importsNotUsedAsValues": "error",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false,
+    "noStrictGenericChecks": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "types": ["react", "jest"]
+  },
+  "exclude": [
+    "lib/**/*",
+    "node_modules",
+    "example/babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}
