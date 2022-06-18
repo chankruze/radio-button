@@ -7,4 +7,4 @@
 :: increment package 
 set /p v=version to increase (patch/minor/major): 
 :: increment, build & publish
-npm version %v% && npm ci && npm run build && npm publish
+npm version %v% && npm run build && npm publish

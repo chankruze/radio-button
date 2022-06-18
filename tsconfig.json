@@ -1,5 +1,5 @@
 {
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*"],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
@@ -19,10 +19,5 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "exclude": [
-    "node_modules",
-    "example/babel.config.js",
-    "metro.config.js",
-    "jest.config.js"
-  ]
+  "exclude": ["node_modules", "example/", "metro.config.js", "jest.config.js"]
 }
